@@ -1,0 +1,12 @@
+<p>Calculator 2</p>
+<input type= "number" [(ngModel)]="number1" placeholder="number" />
+{{result}}
+<br>
+<button (click)='setOperator("+")'>+</button>
+<button (click)='setOperator("-")'>-</button>
+<button (click)='setOperator("*")'>*</button>
+<button (click)='setOperator("/")'>/</button>
+<button (click)='calculate()'>=</button>
+<button (click)='reset()'>C</button>
+<br>
+
